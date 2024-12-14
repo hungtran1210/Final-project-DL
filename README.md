@@ -15,11 +15,11 @@ Opitimizer = Adam,learning rate = 0.001 và batch size = 32,64
 
 Opitimizer = SGD,learning rate = 0.01 và batch size = 32,64
 
-Sau khi huấn luyện và đánh giá thu được các thông số train loss, test loss và Accuracy dùng để phân tích.
+Sau khi huấn luyện và đánh giá thu được các thông số train loss, test loss và accuracy dùng để phân tích.
 
 ## 4. Phân tích kết quả:
-So sánh mỗi mô hình với các siêu tham số khác nhau để tìm được mô hình tốt nhất.
+### Dùng các thông số train loss, test loss và accuracy để :
 
-Lưu lại các mô hình tốt nhất
+So sánh mỗi mô hình với các siêu tham số khác nhau để tìm được mô hình tốt nhất. Lưu lại các mô hình tốt nhất.
 
 So sánh các mô hình tốt nhất của MLP 1 lớp ẩn, 2 lớp ẩn và CNN.
